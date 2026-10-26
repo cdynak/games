@@ -1,0 +1,57 @@
+[
+  {
+    "id": "dynaks-brawl",
+    "title": "Dynak's Brawl",
+    "description": "Nasza własna arena 3 na 3 w przeglądarce. Bohaterowie o różnych umiejętnościach, tryb „Kryształowa Gorączka”, sterowanie na komputerze i telefonie. Projekt prywatny, edukacyjny i niekomercyjny, nieoficjalny i niezwiązany z Supercell.",
+    "status": "W budowie",
+    "statusKind": "wip",
+    "tech": ["TypeScript", "Phaser", "Colyseus", "Przeglądarka"],
+    "links": []
+  },
+  {
+    "id": "archery",
+    "title": "Mistrz Łucznictwa",
+    "description": "Gra z łukiem: naciągnij cięciwę myszą, puść i trafiaj strzałami w ruchomą tarczę. Masz 10 strzał, a im bliżej środka, tym więcej punktów.",
+    "status": "Można grać",
+    "statusKind": "ready",
+    "tech": ["JavaScript", "Canvas", "Przeglądarka"],
+    "links": [
+      {"label": "Zagraj", "url": "https://cdynak.github.io/archery-game-dynak/"},
+      {"label": "Kod źródłowy", "url": "https://github.com/cdynak/archery-game-dynak"}
+    ]
+  },
+  {
+    "id": "fruit-catcher",
+    "title": "Fruit Catcher!",
+    "description": "Łap w koszyk spadające owoce i unikaj bomb. Z każdym punktem jest szybciej. Działa z klawiatury, myszą i na dotyk.",
+    "status": "Można grać",
+    "statusKind": "ready",
+    "tech": ["JavaScript", "Canvas", "Przeglądarka"],
+    "links": [
+      {"label": "Zagraj", "url": "https://fruit-catcher-07f4b1.gitlab.io/"},
+      {"label": "Kod źródłowy", "url": "https://gitlab.com/cdynak/fruit-catcher"}
+    ]
+  },
+  {
+    "id": "roblox-place",
+    "title": "AndrzejoCezmaster's Place",
+    "description": "Nasz świat na Roblox: zbieraj monety na płaskiej planszy i patrz, jak rośnie licznik „Monety”. W planach rozbudowa o pomysł Andrzeja „Fight a Pet” (walka ze zwierzakami).",
+    "status": "Można grać",
+    "statusKind": "ready",
+    "tech": ["Roblox", "Luau"],
+    "links": [
+      {"label": "Zagraj na Roblox", "url": "https://www.roblox.com/games/10827931219"}
+    ]
+  },
+  {
+    "id": "minecraft-town",
+    "title": "Minecraft Town",
+    "description": "Modyfikacja do Heroes III (silnik VCMI): miasto w stylu Minecrafta, rozwinięte z projektu Courtyard.",
+    "status": "Eksperyment",
+    "statusKind": "wip",
+    "tech": ["Heroes III", "VCMI", "Mod"],
+    "links": [
+      {"label": "Repozytorium", "url": "https://github.com/cdynak/minecraft-town"}
+    ]
+  }
+]
