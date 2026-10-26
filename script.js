@@ -16,6 +16,15 @@
         head.appendChild(el('h2', null, g.title));
         head.appendChild(el('span', 'badge ' + (g.statusKind || ''), g.status));
         card.appendChild(head);
+        if ((g.images || []).length) {
+          var gal = el('div', 'gallery');
+          g.images.forEach(function (src, i) {
+            var im = el('img');
+            im.src = src; im.alt = g.title + ' - zrzut ekranu ' + (i + 1); im.loading = 'lazy';
+            gal.appendChild(im);
+          });
+          card.appendChild(gal);
+        }
         card.appendChild(el('p', 'desc', g.description));
         var tech = el('ul', 'tech');
         (g.tech || []).forEach(function (t) { tech.appendChild(el('li', null, t)); });

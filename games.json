@@ -5,7 +5,12 @@
     "description": "Nasza własna arena 3 na 3 w przeglądarce. Bohaterowie o różnych umiejętnościach, tryb „Kryształowa Gorączka”, sterowanie na komputerze i telefonie. Projekt prywatny, edukacyjny i niekomercyjny, nieoficjalny i niezwiązany z Supercell.",
     "status": "W budowie",
     "statusKind": "wip",
-    "tech": ["TypeScript", "Phaser", "Colyseus", "Przeglądarka"],
+    "tech": [
+      "TypeScript",
+      "Phaser",
+      "Colyseus",
+      "Przeglądarka"
+    ],
     "links": []
   },
   {
@@ -14,10 +19,20 @@
     "description": "Gra z łukiem: naciągnij cięciwę myszą, puść i trafiaj strzałami w ruchomą tarczę. Masz 10 strzał, a im bliżej środka, tym więcej punktów.",
     "status": "Można grać",
     "statusKind": "ready",
-    "tech": ["JavaScript", "Canvas", "Przeglądarka"],
+    "tech": [
+      "JavaScript",
+      "Canvas",
+      "Przeglądarka"
+    ],
     "links": [
-      {"label": "Zagraj", "url": "https://cdynak.github.io/archery-game-dynak/"},
-      {"label": "Kod źródłowy", "url": "https://github.com/cdynak/archery-game-dynak"}
+      {
+        "label": "Zagraj",
+        "url": "https://cdynak.github.io/archery-game-dynak/"
+      },
+      {
+        "label": "Kod źródłowy",
+        "url": "https://github.com/cdynak/archery-game-dynak"
+      }
     ]
   },
   {
@@ -26,21 +41,42 @@
     "description": "Łap w koszyk spadające owoce i unikaj bomb. Z każdym punktem jest szybciej. Działa z klawiatury, myszą i na dotyk.",
     "status": "Można grać",
     "statusKind": "ready",
-    "tech": ["JavaScript", "Canvas", "Przeglądarka"],
+    "tech": [
+      "JavaScript",
+      "Canvas",
+      "Przeglądarka"
+    ],
     "links": [
-      {"label": "Zagraj", "url": "https://fruit-catcher-07f4b1.gitlab.io/"},
-      {"label": "Kod źródłowy", "url": "https://gitlab.com/cdynak/fruit-catcher"}
+      {
+        "label": "Zagraj",
+        "url": "https://fruit-catcher-07f4b1.gitlab.io/"
+      },
+      {
+        "label": "Kod źródłowy",
+        "url": "https://gitlab.com/cdynak/fruit-catcher"
+      }
     ]
   },
   {
-    "id": "roblox-place",
-    "title": "AndrzejoCezmaster's Place",
-    "description": "Nasz świat na Roblox: zbieraj monety na płaskiej planszy i patrz, jak rośnie licznik „Monety”. W planach rozbudowa o pomysł Andrzeja „Fight a Pet” (walka ze zwierzakami).",
-    "status": "Można grać",
+    "id": "fight-a-pet",
+    "title": "Fight a Pet",
+    "description": "Chwyć magiczną różdżkę i wyrusz na arenę pełną zwierzaków! Wokół bezpiecznej bazy leży sześć kręgów, od Zielonej Łąki po Otchłań Cienia. Pokonuj magiczne pety, zbieraj monety i kupuj coraz mocniejsze bronie.",
+    "status": "Można grać (ograniczenia wiekowe)",
     "statusKind": "ready",
-    "tech": ["Roblox", "Luau"],
+    "tech": [
+      "Roblox",
+      "Luau"
+    ],
     "links": [
-      {"label": "Zagraj na Roblox", "url": "https://www.roblox.com/games/10827931219"}
+      {
+        "label": "Zagraj na Roblox",
+        "url": "https://www.roblox.com/games/10827931219"
+      }
+    ],
+    "images": [
+      "img/fight-a-pet-1.jpg",
+      "img/fight-a-pet-2.jpg",
+      "img/fight-a-pet-3.jpg"
     ]
   },
   {
@@ -49,9 +85,16 @@
     "description": "Modyfikacja do Heroes III (silnik VCMI): miasto w stylu Minecrafta, rozwinięte z projektu Courtyard.",
     "status": "Eksperyment",
     "statusKind": "wip",
-    "tech": ["Heroes III", "VCMI", "Mod"],
+    "tech": [
+      "Heroes III",
+      "VCMI",
+      "Mod"
+    ],
     "links": [
-      {"label": "Repozytorium", "url": "https://github.com/cdynak/minecraft-town"}
+      {
+        "label": "Repozytorium",
+        "url": "https://github.com/cdynak/minecraft-town"
+      }
     ]
   }
 ]
